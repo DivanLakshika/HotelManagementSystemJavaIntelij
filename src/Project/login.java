@@ -22,7 +22,7 @@ public class login extends JDialog{
     super(parent);
     setTitle("Login");
     setContentPane(loginPanel);
-    setMinimumSize(new Dimension(1366,768));
+    setMinimumSize(new Dimension(500,400));
     setModal(true);
     setLocationRelativeTo(parent);
     setDefaultCloseOperation(DISPOSE_ON_CLOSE);

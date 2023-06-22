@@ -1,19 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Project.Home">
-  <grid id="27dc6" binding="HomePanel" layout-manager="GridLayoutManager" row-count="1" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="HomePanel" layout-manager="GridLayoutManager" row-count="3" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="30" left="30" bottom="30" right="30"/>
     <constraints>
-      <xy x="20" y="20" width="1219" height="400"/>
+      <xy x="20" y="20" width="1566" height="861"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
+      <component id="15233" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Images/bed.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="a9a7b" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Images/check-in-desk BIG.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="41733" class="javax.swing.JButton" binding="btnmanageRoom">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="24" style="1"/>
+          <foreground color="-10312773"/>
+          <text value="Manage Room"/>
+        </properties>
+      </component>
+      <component id="8290e" class="javax.swing.JButton" binding="btncustomerCheckIn">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="24" style="1"/>
+          <foreground color="-9187246"/>
+          <text value="Customer Check In"/>
+        </properties>
+      </component>
       <component id="effbb" class="javax.swing.JButton" binding="btncustomerCheckOut">
         <constraints>
           <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font name="Consolas" size="24" style="1"/>
+          <foreground color="-4509136"/>
           <text value="Customer Check Out"/>
         </properties>
       </component>
@@ -23,34 +62,35 @@
         </constraints>
         <properties>
           <font name="Consolas" size="24" style="1"/>
+          <foreground color="-4475839"/>
           <text value="Customer Details Bill"/>
         </properties>
       </component>
-      <component id="85537" class="javax.swing.JButton" binding="btnlogout">
+      <component id="9fa06" class="javax.swing.JLabel">
         <constraints>
-          <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Consolas" size="24" style="1"/>
+          <icon value="Images/billbig.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="59ba1" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="Images/checkoutbIG.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="8506f" class="javax.swing.JButton" binding="btnlogout">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="22" style="1"/>
           <text value="Logout"/>
-        </properties>
-      </component>
-      <component id="8290e" class="javax.swing.JButton" binding="btncustomerCheckIn">
-        <constraints>
-          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="1" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font name="Consolas" size="24" style="1"/>
-          <text value="Customer Check In"/>
-        </properties>
-      </component>
-      <component id="41733" class="javax.swing.JButton" binding="btnmanageRoom">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font name="Consolas" size="24" style="1"/>
-          <text value="Manage Room"/>
         </properties>
       </component>
     </children>

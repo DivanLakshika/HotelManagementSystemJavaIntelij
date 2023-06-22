@@ -19,13 +19,12 @@ public class SignUpPage extends JDialog{
     private JTextField tfAddress;
 
 
-
-  public SignUpPage(JFrame parent) {
+    public SignUpPage(JFrame parent) {
 
     super(parent);
     setTitle("SignUP");
     setContentPane(SignupPanel);
-    setMinimumSize(new Dimension(1366,768));
+    setMinimumSize(new Dimension(1000,700));
     setModal(true);
     setLocationRelativeTo(parent);
     setDefaultCloseOperation(DISPOSE_ON_CLOSE);

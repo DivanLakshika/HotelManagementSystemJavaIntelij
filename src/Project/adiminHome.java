@@ -28,6 +28,15 @@ public class adiminHome extends JDialog {
     setLocationRelativeTo(parent);
     setDefaultCloseOperation(DISPOSE_ON_CLOSE);
 
+   /* JLabel background;
+    setSize(1366,768);
+    setLayout(null);
+    ImageIcon img = new ImageIcon("admin Home.png");
+    background = new JLabel("",img,JLabel.CENTER);
+    background.setBounds(0,0,1366,768);
+    add(background); */
+
+
 
     btnLogout.addActionListener(new ActionListener() {
 
@@ -134,6 +143,10 @@ public class adiminHome extends JDialog {
                     }
 
             }
+        });
+        adminHomePanel.addComponentListener(new ComponentAdapter() {
+        });
+        adminHomePanel.addComponentListener(new ComponentAdapter() {
         });
     }
 

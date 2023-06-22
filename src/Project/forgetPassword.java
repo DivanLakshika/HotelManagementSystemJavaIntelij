@@ -21,7 +21,7 @@ public class forgetPassword extends JDialog {
         super(parent);
         setTitle("Login");
         setContentPane(forgetPasswordPanel);
-        setMinimumSize(new Dimension(1366, 768));
+        setMinimumSize(new Dimension(800, 500));
         setModal(true);
         setLocationRelativeTo(parent);
         setDefaultCloseOperation(DISPOSE_ON_CLOSE);
