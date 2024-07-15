@@ -1,2 +1,2 @@
 Hotel Management System
-/README/Screenshot%20(465).png
+/README/Screenshot%20(465)
