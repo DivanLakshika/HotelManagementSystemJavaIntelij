@@ -1,14 +1,14 @@
 # Hotel Management system
 ## ScreenShots
-![Home Page](<README/Screenshot(466).png>)
-![Manage Room](<README/Screenshot(467).png>)
-![Customer Check In](<README/Screenshot(468).png>)
-![Customer Check Out](<README/Screenshot(469).png>)
-![Customer Details Bill](<README/Screenshot(470).png>)
-![SignUP](<README/Screenshot(471).png>)
-![Login](<README/Screenshot(472).png>)
-![Forget Password](<README/Screenshot(473).png>)
-![Bill](<README/Screenshot(465).png>)
+![Home Page](<README/Screenshot (466).png>)
+![Manage Room](<README/Screenshot (467).png>)
+![Customer Check In](<README/Screenshot (468).png>)
+![Customer Check Out](<README/Screenshot (469).png>)
+![Customer Details Bill](<README/Screenshot (470).png>)
+![SignUP](<README/Screenshot (471).png>)
+![Login](<README/Screenshot (472).png>)
+![Forget Password](<README/Screenshot (473).png>)
+![Bill](<README/Screenshot (465).png>)
 
 ## Description
 The Hotel Management System is a Java application designed to manage hotel operations efficiently. It includes features for room management, customer check-in and check-out, billing, and more. The system is built using Java and requires MySQL for data storage.
